@@ -7,6 +7,7 @@ import GameScreen from './screens/GameScreen';
 import GameOverScreen from './screens/GameOverScreen';
 
 export default function App() {
+  //Test git commit
   const [userNumber, setUserNumber] = useState();
   const [guessRound, setGuessRound] = useState(0);
   function configuareNewGameHandler(){
